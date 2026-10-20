@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# #!/data/data/com.termux/files/usr/bin/env python
 import argparse, json, re, subprocess
 from urllib.request import urlopen
 #==================================
