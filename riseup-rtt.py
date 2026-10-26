@@ -57,4 +57,4 @@ if args.benchmark:
         elif sum(map(float, times)) / len(times) <= GOOD_MS:
             print(f"{GREEN}[+] {RESET}{label} -> {GREEN}{rtt}{RESET}")
         else:
-            print(label)
+            print(f"[i] {label}")
