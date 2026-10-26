@@ -11,7 +11,7 @@ This Python script only measures RTTs to RiseupVPN servers and has no other func
 - `-u`, `--update`: Download or update `gateways.json`.
 - `-b`, `--benchmark`: Measure RTTs to RiseupVPN servers.
 
-The script marks servers with an RTT of 200 ms or higher as good and displays the RTT value in green.
+The script marks servers with an RTT of 200 ms or under as good and displays the RTT value in green.
 
 If a server times out, it is marked as bad and its status is displayed in red.
 
